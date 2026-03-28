@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 function Signup() {
   const navigate = useNavigate();
@@ -58,6 +59,7 @@ function Signup() {
           </Link>
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

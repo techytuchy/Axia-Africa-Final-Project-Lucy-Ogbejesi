@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -43,6 +44,7 @@ function ProductDetail() {
           </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

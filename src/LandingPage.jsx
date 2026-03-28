@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 function LandingPage() {
   return (
@@ -52,9 +53,7 @@ function LandingPage() {
         </p>
       </section>
 
-      <footer className="bg-purple-900 text-white text-center py-6">
-        <p>© 2026 Tuchy's Store. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

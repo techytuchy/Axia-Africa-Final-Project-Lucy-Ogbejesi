@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 function ForgotPassword() {
   const [email, setEmail] = useState("");
@@ -51,6 +52,7 @@ function ForgotPassword() {
           </Link>
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
